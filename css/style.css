@@ -1,0 +1,663 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap');
+body{
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    background: url('https://sushivostok.com/wp-content/themes/sushivostok/images/header.jpg') ;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+header nav{
+    width: 100%;
+    margin: 0px auto;
+    padding: 15px 0px;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.logo{
+    width: 120px;
+    height: 120px;
+    margin-right: 20px;
+}
+header nav div{
+    margin-right: 20px;
+}
+header nav .descrip{
+    margin: auto 0px;
+    margin-right: 20px;
+    font-size: 26px;
+    font-weight: 300;
+}
+nav .mode{
+    display: flex;
+    flex-direction: column;
+}
+nav .mode p{
+    font-size: 13px;
+    font-weight: 500;
+    color: #c5c5c5;
+}
+nav .mode button{
+    color: #fff;
+    font-size: 16px;
+    background-color: #ffb400;
+    border-radius: 5px;
+    border: none;
+    padding: 5px 8px;
+    margin: 20px 0px;
+}
+nav div img{
+    width: 35px;
+    height: 35px;
+}
+nav div{
+    margin: auto 0px;
+}
+nav .phones{
+    display: flex;
+}
+nav .phones div{
+    display: flex;
+    flex-direction: column;
+}
+nav .phones div p{
+    font-size: 12px;
+}
+nav .phones div span{
+    font-weight: 700;
+}
+nav .basket{
+    display: flex;
+}
+nav .basket div{
+    display: flex;
+    flex-direction: column;
+}
+nav .basket div p{
+    color: #c5c5c5;
+    font-size: 14px;
+}
+nav .basket div span{
+    font-size: 18px;
+}
+nav div i{
+    font-size: 35px;
+    color: #cf1b06;
+    margin: 0px 5px;
+}
+
+.services{
+    width: 100%;
+    padding: 20px 0px;
+    display: flex;
+    justify-content: center;
+    background-color: #2a2a2a;
+}
+.services ul{
+    display: flex;
+    list-style: none;
+}
+.services ul li{
+    margin: 0px 15px;
+}
+.services ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 17px;
+}
+.services ul li a:hover{
+    color: #cf1b06;
+}
+/* ================swiper============================== */
+.swiper {
+    width: 100%;
+    height: 80vh;
+}
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.menu{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.menu .rolls{
+    width: 70%;
+    padding: 20px 15%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.menu .rolls div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: calc(80% / 4);
+    min-width: 250px;
+    border: 0.5px solid #c2c2c2;
+    position: relative;
+}
+.menu .rolls div img{
+    width: 100%;
+    height: 100%;
+}
+.menu .rolls div div{
+    position: absolute;
+    border: none;
+    left: 0px;
+    bottom: 0px;
+    z-index: 2;
+    padding: 10px 0px;
+    transition: 300ms;
+    box-shadow: inset 0px 0px 20px rgba(0, 0, 0, 0.9), 0px 0px 20px rgba(0, 0, 0, 0.9);
+}
+.menu .rolls div:hover div{
+    
+    transform: translateY(-40%);
+}
+.menu .rolls div div a{
+    text-decoration: none;
+    color: #fff;
+    bottom: 0px;
+    font-size: 19px;
+    font-weight: 700;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.9);
+}
+.h1{
+    text-align: center;
+    margin: 40px auto;
+    font-size: 45px;
+
+}
+.free{
+    width: 70%;
+    padding: 20px 15%;
+    display: flex;
+    justify-content: center;
+}
+.free .free1{
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+}
+.free .free1 div{
+    width: 350px;
+}
+.free .free1 div img{
+    width: 100%;
+}
+
+
+/* ====================================================== */
+.hit{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: url('https://sushivostok.com/wp-content/themes/sushivostok/images/catalogPage.png');
+}
+.hit .UnderMenu{
+    display: flex;
+    padding: 30px 0px;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+}
+.UnderMenu .items{
+    padding: 10px 24px;
+    margin: 0px 10px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    transition: 400ms;
+}
+.UnderMenu .items:hover{
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.4);
+    transform: scale(1.01);
+}
+.UnderMenu .items .img{
+    min-height: 33vh;
+}
+.UnderMenu .items img{
+    width: 100%;
+    min-height: 25vh;
+}
+.UnderMenu .items div{
+    display: flex;
+    padding: 10px 0px;
+    position: relative;
+}
+.UnderMenu .items div .price1{
+    display: flex;
+    flex-direction: column;
+    padding: 7px 10px;
+    position: absolute;
+    left: -8%;
+    bottom: 200%;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: #cf1b06;
+}
+
+.UnderMenu .items div .price2{
+    display: flex;
+    flex-direction: column;
+    padding: 5px 10px;
+    position: absolute;
+    right: -8%;
+    bottom: 200%;
+    background-color: #ff7e00;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    color: #fff;
+}
+.UnderMenu .items div .price2 div{
+    padding: 3px 0px;
+}
+.UnderMenu .items div .price1 p{
+    color: #fff;
+    font-size: 12px;
+    font-weight: 600;
+    margin: 1px 0px;
+}
+.UnderMenu .items div .price1 div{
+    display: flex;
+    color: #fff;
+    padding: 0px;
+}
+.UnderMenu .items div .price1 div a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    margin-right: 10px;
+}
+.UnderMenu .items div .price1 div span{
+    margin-top: 0px;
+}
+.UnderMenu .items div .price2 div a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    margin-right: 10px;
+}
+.UnderMenu .items div .price2 p{
+    color: #fff;
+    font-weight: 600;
+    margin: 0px;
+    font-size: 12px;
+}
+.UnderMenu .items a{
+    color: #000;
+}
+.UnderMenu .items p{
+    color: #8f8f8f;
+    font-weight: 300;
+    margin: 10px 0px;
+    margin-bottom: 20px;
+}
+
+.UnderMenu .items .toBasket{
+    margin: 5px 0px;
+}
+.UnderMenu .items .toBasket i{
+    color: #636363;
+    margin: auto 0px;
+    cursor: pointer;
+}
+.UnderMenu .items .toBasket span{
+    margin: auto 10px;
+
+}
+.UnderMenu .items .toBasket a{
+    background-color: #ffb400;
+    border-radius: 3px;
+    text-decoration: none;
+    color: #fff;
+    margin: 0px 10px;
+    padding: 12px 15px;
+}
+.UnderMenu .items .toBasket a:hover{
+    background-color: #ffce5b;
+}
+.UnderMenu .items .hr{
+    width: 100%;
+    height: 1px;
+    padding: 0px;
+    background-color: #c2c2c2;
+}
+.aboutUs{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    padding: 20px 15%;
+}
+.aboutUs .descrip2{
+    width: 100%;
+}
+.aboutUs .descrip2 .des{
+    display: flex;
+}
+
+.aboutUs .span1{
+    font-size: 30px;
+    font-weight: 300;
+    text-decoration: underline;
+}
+.aboutUs .descrip2 .span2{
+    font-size: 30px;
+    margin: 50px 0px;
+    font-weight: 300;
+}
+.aboutUs .descrip2 .des div p{
+    margin: 25px 0px;
+    line-height: 35px;
+}
+.aboutUs .descrip2 .des div ul{
+    list-style: none;
+    margin-left: 30px;
+}
+.aboutUs .descrip2 .des div ul li{
+    position: relative;
+    line-height: 30px;
+}
+.aboutUs .descrip2 .des div ul li::before{
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    left: -25px;
+    top: 10px;
+    border-radius: 50%;
+    background-color: red;
+}
+.aboutUs .descrip2 .girl{
+    width: 150%;
+}
+.aboutUs .descrip2 .girl img{
+    width: 100%;
+}
+
+footer{
+    width: 100%;
+    background-color: #2a2a2a;
+}
+footer section {
+    width: 100%;
+    padding: 30px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+footer section div{
+    display: flex;
+    margin-right: 15px;
+    margin-bottom: 20px;
+    flex-direction: column;
+}
+footer section div p{
+    color: #fff;
+}
+footer section div p{
+    color: #c5c5c5;
+    margin: 20px 0px;
+}
+footer section div a{
+    color: #838383;
+
+}
+footer section ul{
+    list-style: none;
+    line-height: 30px;
+    margin-right: 20px;
+}
+footer section ul li a{
+    color: #838383;
+}
+footer section ul li a:hover{
+    text-decoration: none;
+    color: #fff;
+}
+
+footer section .footerIcons {
+    text-align: right;
+}
+footer section .footerIcons div{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+}
+footer section .footerIcons img{
+    width: 34px;
+    
+}
+footer section .footerIcons span{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+}
+footer section .footerIcons a{
+    color: #e91b03;
+}
+footer section div p {
+    color: #c5c5c5;
+    margin: 10px 0px;
+}
+
+
+footer section .footerIcons strong{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 5px 0px;
+} 
+.images{
+    margin: 0px auto;
+}
+@media (max-width: 1190px){
+    .UnderMenu .items div .price1 p{
+        font-size: 11px;
+    }
+    .UnderMenu .items div .price1 div a{
+        font-size: 16px;
+
+    }
+    .UnderMenu .items div .price1 div span{
+        font-size: 15px;
+    }
+    .UnderMenu .items div .price2 div a{
+        font-size: 16px;
+    }
+    .UnderMenu .items div .price2 p{
+        font-size: 11px;
+    }
+}
+@media (max-width: 1120px){
+    .services ul li{
+        margin: 0px 10px;
+    }
+    .services ul li a{
+        font-size: 14px;
+    }
+    .aboutUs .descrip2 .span1{
+        font-size: 28px;
+    }
+    .aboutUs .descrip2 .span2{
+        font-size: 28px;
+    }
+    .aboutUs .descrip2 p{
+        font-size: 15px;
+    }
+    .aboutUs .descrip2 ul{
+        font-size: 15px;
+    }
+}
+@media (max-width: 1020px){
+    .UnderMenu{
+        flex-wrap: wrap;
+    }
+    footer section p{
+        font-size: 15px;
+    }
+    footer section a{
+        font-size: 15px;
+    }
+    footer section ul{
+        font-size: 15px;
+    }
+}
+@media (max-width: 1000px){
+    .free .free1{
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+    }
+    .aboutUs .descrip2 .girl{
+        display: none;
+    }
+    .aboutUs .descrip2 .span1{
+        font-size: 27px;
+    }
+    .aboutUs .descrip2 .span2{
+        font-size: 27px;
+    }
+}
+@media (max-width: 910px){
+    header nav .descrip{
+        font-size: 24px;
+    }
+    header nav .phones div{
+        display: none;
+    }
+
+    header nav div i{
+        font-size: 33px;
+    }
+    header nav .mode button{
+        font-size: 15px;
+    } 
+    header nav .basket div {
+        display: none;
+    }
+    .aboutUs .descrip2 .span1{
+        font-size: 26px;
+    }
+    .aboutUs .descrip2 .span2{
+        font-size: 26px;
+    }
+}
+@media (max-width: 880px){
+    nav .descrip{
+        display: none;
+    }
+    header nav div i{
+        font-size: 32px;
+    }
+    .services ul li:nth-child(6){
+        display: none;
+
+    }
+    .aboutUs .descrip2 .span1{
+        font-size: 25px;
+    }
+    .aboutUs .descrip2 .span2{
+        font-size: 25px;
+    }
+    nav .mode p{
+        display: none;
+    }
+    nav .mode span{
+        display: none;
+    }
+    nav .mode button{
+        font-size: 18px;
+    }
+}
+@media (max-width: 560px){
+    header nav div i{
+        font-size: 30px;
+    }
+    .services ul li:nth-child(5){
+        display: none;
+    }
+    .aboutUs .descrip2 .span1{
+        font-size: 24px;
+    }
+    .aboutUs .descrip2 .span2{
+        font-size: 24px;
+    }
+}
+@media (max-width: 460px){
+    header nav div i{
+        font-size: 29px;
+    }
+    .services ul li:nth-child(4){
+        display: none;
+    }
+    .aboutUs .descrip2 .span1{
+        font-size: 23px;
+    }
+    .aboutUs .descrip2 .span2{
+        font-size: 23px;
+    }
+    .logo{
+        width: 100px;
+        height: 100px;
+    }
+}
+@media (max-width: 390px){
+    header nav div i{
+        font-size: 28px;
+    }
+    .services ul li{
+        font-size: 14px;
+    }
+    .logo{
+        width: 90px;
+        height: 90px;
+        margin-left: 20px;
+    }
+}
+@media (max-width: 350px){
+    .services ul li{
+        font-size: 14px;
+    }
+    header nav .phones{
+        margin: auto 5px;
+    }
+    nav .mode button{
+        font-size: 15px;
+    }
+}
